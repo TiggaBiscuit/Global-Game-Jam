@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parallax Website Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|Titillium+Web:300|VT323" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="section section-dark">
+    <h2>Engine Room</h2>
+  </section>
+
+  <div class="pimg4">
+    <div class="ptext">
+      <p class="border">
+        “The Engine room? You think I should go there?” She asked nervously. “These corridors used to be filled with familiar sounds
+        and smells, but now it’s a cold empty void like the surrounding space. . . humph here it is the engine room” You
+        hear the sound of air as the pressurised room sucks in oxygen and the slight groan of struggle as Kate keeps here
+        ground it’s open.” Let’s have a look at this engine huh. . . “You hear clanging and some mumble swears under Kates
+        breath” “Only seems to have slipped a plate nothing too technical thankfully, this really isn’t my thing. Now where
+        are these tools”
+      </p>
+      <div class="input-wrap">
+        <input class="button" type="button" onClick="document.getElementById('engine').scrollIntoView('smooth');" value="Clang" />
+      </div>
+    </div>
+  </div>
+
+  <div class="pimg5" id="engine">
+    <div class="ptext">
+      <p class="border">
+        A high pitched squeal rings through the radio echoing all the way down the attic. “BOOM done that wasn’t too bad hopefully
+        won’t feel like I’m top of mount Everest anymore. do you think I should keep hold of this wrench? I mean I am in
+        unknown territory. Should I take it?”
+      </p>
+      <div class="input-wrap">
+        <input class="button" type="button" onClick="document.getElementById('Armory1').scrollIntoView('smooth');" value=" Definitly yes " />
+        <input class="button " type="button " onClick="document.getElementById( 'Armory1').scrollIntoView( 'smooth');" value="Probably not " />
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-dark" id="Armory1">
+    <h2>Loud Noise</h2>
+    <p class="border2 ">
+      Loud scraping, Grunts and Clanging can be heard “You hear that I think it’s coming from the Living quarters I wonder if it’s
+      one of the guys”
+    </p>
+    <div class="input-wrap ">
+      <input class="button " type="button " onclick="location.href='quarters.html' ;" value="Living Quaters " />
+      <input class="button " type="button " onclick="location.href='auxillary.html' ;" value="Auxillary Room "
+      />
+    </div>
+  </section>
+
+  <!--<div class="pimg6 ">
+    <div class="ptext ">
+      <span class="border trans ">
+        Image Three Text
+      </span>
+    </div>
+  </div>-->
+
+  <script src="scroll.js "></script>
+</body>
+
+</html>

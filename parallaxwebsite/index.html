@@ -1,44 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Parallax Website Demo</title>
+  <title>Parallax Website </title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro|Titillium+Web:300|VT323" rel="stylesheet">
 </head>
+
 <body>
   <div class="pimg1">
     <div class="ptext">
       <p class="border">
-        Learn to Parallax a Website Learn to Parallax a Website Learn to Parallax a Website Learn to Parallax a Website 
-      </p>
-    </div>
-  </div>    
-
-  <div class="pimg2">
-    <div class="ptext">
-    <p class="border">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et.
-    </p>
+        OPERATION OSIRIS<br><br> 20/4/2025 5 days since your grandfather passed away, the raw feelings of anger and grief
+        have subsided into numbness, all you want to do is take your mind off everything and everyone. You don’t remember
+        what compelled you to go upstairs into the attic but somehow it felt right. It’s what you wanted – no – needed to
+        do.
+        <br><br>As you look through the things you know you should be feeling joy and grief as you think about all the things
+        you had done together and the memories that were shared. But instead you’re just sitting there feeling cold and empty.
+        You keep trying to ignore the fact that you are feeling numb and empty by delving further and further into the piles
+        of boxes stacked all around you, slowly you go through one by one, eventually you look up after what had only seemed
+        like 10 minutes but realistically, was 3 hours and something catches your eye as the late afternoon sun shines through
+        the attic window casting the room into a bright crimson glow.</p>
+      <div class="input-wrap">
+        <input class="button" type="button" onClick="document.getElementById('middle').scrollIntoView('smooth');" value="Begin" />
+      </div>
     </div>
   </div>
 
-  <section class="section section-dark">
-    <h2>Section Two</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+
+
+  <div class="pimg2" id="middle">
+    <div class="ptext">
+      <p class="border">
+        You move over to the object in the corner pushing some big dusty boxes out of the way, coughing as you do so. You can eventually
+        reveal the object that you’ve been trying to get at for the better part of 5 minutes now. You slowly process it,
+        working out what it is. As if a lightbulb turned on in your head, you realise that it’s an old HAM Radio.
+        <br><br> After dragging it over to a nearby power socket you start to fiddle with the nobs on the front until you
+        hear a crackling noise coming out of it you slowly adjust it until it becomes clear, you’ve just managed to tune
+        into your local radio station it’s a bit crackly but you can clearly make out the discussion they are having on the
+        next launch from SpaceX – It’s what everyone has been talking about for the last few months after they discovered
+        the anomaly.
+        <br><br> They are sending a ship with a crew of 5 out to the anomaly, never have all the nations worked together
+        so quickly created something, they had constructed a deep space capable ship within 3 years of discovering the anomaly.
+        New technology breakthroughs were announced daily and almost immediately implemented into the ship in some way. After
+        listening to the radio for a bit you get bored and start to fiddle with the knobs on the radio again trying to find
+        another. Just as you’re about to turn the knobs again the radio crackles to life and you can here a desperate voice
+        saying.
+      </p>
+      <div class="input-wrap">
+        <input class="button" type="button" onClick="document.getElementById('bottom').scrollIntoView('smooth');" value="Continue"
+        />
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-dark" id="bottom">
+    <h2>Incoming message</h2>
+    <p class="border2">
+      “H&^*S do you read? This is T%& OSIRIS please &^%e in, M***R KATE r$p&^%#*g.”
     </p>
   </section>
 
   <div class="pimg3">
     <div class="ptext">
-      <span class="border trans">
-        Image Three Text
-      </span>
+      <p class="border">
+        You let it loop around twice trying to make out all the details of the staticky transmission before picking up the radio
+        transmitter and saying “Hello?” On the other end you hear a crash and a scream before a desperate voice saying: “Hello?
+        Is anyone there?” You reply back: “Yes, I’m here. Who are you?” The voice on the end responds: “Kate, but that isn’t
+        important, I need help!” “But how can I help you?” You reply hearing the urgency in her voice. “The ship is running
+        out of air; all life support systems were knocked out during the crash. I only have a few minutes before it gets
+        too bad to fix, I either go to the Auxiliary room to see if I can get a portable air supply unit going, or the engine
+        room to possibly get the air system powered” You could easily tell she was thinking clearheaded but mostly only keeping
+        on by pure adrenaline and rashness. You very calmly say back to her; “I think you should go to the __________ “
+
+      </p>
+      <div class="input-wrap">
+        <input class="button" type="button" onclick="location.href='engine.html';" onclick="engineFirst()" value="Engine Room" />
+        <input class="button" type="button" onclick="location.href='auxillary.html';" onclick="auxFirst()" value="Auxillary Room"
+        />
+      </div>
     </div>
-  </div>
 
-
+    <script src="scroll.js"></script>
 </body>
+
 </html>
